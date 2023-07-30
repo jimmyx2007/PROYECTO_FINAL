@@ -1,12 +1,16 @@
 /* stylelint-disable selector-list-comma-newline-after */
 
+.body{
+ background-color: aqua;
+}
 .blog-header {
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #f66161;
+
 }
 
 .blog-header-logo {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-  font-size: 2.25rem;
+  font-size: 2.50rem;
 }
 
 .blog-header-logo:hover {
@@ -20,6 +24,7 @@ h4,
 h5,
 h6 {
   font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font : #f66161;
 }
 
 .display-4 {
@@ -74,8 +79,8 @@ h6 {
   padding: 2.5rem 0;
   color: #727272;
   text-align: center;
-  background-color: #f9f9f9;
-  border-top: .05rem solid #e5e5e5;
+  background-color: #1f84bf;
+  border-top: .05rem solid #100e0e;
 }
 
 .blog-footer p:last-child {
